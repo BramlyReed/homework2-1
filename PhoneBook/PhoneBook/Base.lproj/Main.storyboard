@@ -46,7 +46,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JM-5B-2Fc">
-                                                    <rect key="frame" x="282" y="29" width="62" height="21"/>
+                                                    <rect key="frame" x="229" y="29" width="62" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="4ub-3M-JSe"/>
                                                     </constraints>
@@ -58,14 +58,14 @@
                                             <constraints>
                                                 <constraint firstItem="Qa4-vX-SN4" firstAttribute="bottom" secondItem="hbA-XL-N6l" secondAttribute="bottomMargin" id="500-aG-e7o"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="8JM-5B-2Fc" secondAttribute="bottom" constant="19" id="ALb-2F-oRL"/>
-                                                <constraint firstItem="8JM-5B-2Fc" firstAttribute="leading" relation="lessThanOrEqual" secondItem="3ds-fK-5WI" secondAttribute="trailing" constant="212" id="CXr-le-sjn"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8JM-5B-2Fc" secondAttribute="trailing" constant="103" id="Ddh-KR-Tfj"/>
                                                 <constraint firstItem="8JM-5B-2Fc" firstAttribute="top" secondItem="hbA-XL-N6l" secondAttribute="topMargin" constant="18" id="UuG-fM-A7I"/>
                                                 <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="Qa4-vX-SN4" secondAttribute="trailing" constant="305" id="VEc-10-W1w"/>
                                                 <constraint firstItem="3ds-fK-5WI" firstAttribute="top" secondItem="hbA-XL-N6l" secondAttribute="topMargin" constant="8" id="Xch-dh-oV3"/>
                                                 <constraint firstItem="3ds-fK-5WI" firstAttribute="leading" secondItem="hbA-XL-N6l" secondAttribute="leadingMargin" constant="5" id="Yig-XV-zlh"/>
                                                 <constraint firstItem="Qa4-vX-SN4" firstAttribute="leading" secondItem="hbA-XL-N6l" secondAttribute="leadingMargin" constant="5" id="eUt-T4-BIW"/>
                                                 <constraint firstItem="Qa4-vX-SN4" firstAttribute="top" secondItem="3ds-fK-5WI" secondAttribute="bottom" constant="8" id="h75-Gt-I6j"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="8JM-5B-2Fc" secondAttribute="trailing" constant="50" id="jPv-b3-M87"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="3ds-fK-5WI" secondAttribute="trailing" constant="150" id="jne-p0-V4L"/>
                                                 <constraint firstItem="Qa4-vX-SN4" firstAttribute="bottom" secondItem="hbA-XL-N6l" secondAttribute="bottomMargin" id="vcO-Yh-8Y7"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -109,7 +109,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaL-64-nwZ">
-                                <rect key="frame" x="97.999999999999986" y="176" width="218.66666666666663" height="47"/>
+                                <rect key="frame" x="98" y="176" width="218" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="DWF-3K-42a"/>
                                     <constraint firstAttribute="width" constant="218" id="qs2-Ee-rVe"/>
@@ -138,7 +138,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="694-mp-k5i">
-                                <rect key="frame" x="184" y="356" width="120.66666666666669" height="30"/>
+                                <rect key="frame" x="184" y="356" width="120" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7YE-5b-tGo"/>
                                     <constraint firstAttribute="width" constant="120" id="AIx-B9-grt"/>
@@ -158,7 +158,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Z-Jr-s5C">
-                                <rect key="frame" x="159.66666666666669" y="635" width="95.333333333333314" height="66"/>
+                                <rect key="frame" x="159.66666666666666" y="635" width="94.666666666666657" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="axi-c6-SET"/>
                                     <constraint firstAttribute="width" constant="95" id="urZ-gj-koU"/>
@@ -180,7 +180,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QiB-aq-YYW">
-                                <rect key="frame" x="184.66666666666669" y="487" width="120" height="30"/>
+                                <rect key="frame" x="184.66666666666666" y="487" width="119.99999999999997" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ENC-Cy-rCm"/>
                                     <constraint firstAttribute="width" constant="120" id="bbY-rA-eKm"/>
